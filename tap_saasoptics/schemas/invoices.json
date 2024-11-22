@@ -1,6 +1,6 @@
 {
   "type": "object",
-  "additionalProperties": true,
+  "additionalProperties": { "type": "string" },
   "properties": {
     "applied_amount": {
       "type": ["null", "number"],
@@ -125,7 +125,7 @@
           "type": "array",
           "items": {
             "type": ["null", "object"],
-            "additionalProperties": false,
+            "additionalProperties": { "type": "string" },
             "properties": {
               "deleted_in_qb": {
                 "type": ["null", "boolean"]
@@ -202,6 +202,26 @@
               },
               "transaction": {
                 "type": ["null", "integer"]
+              },
+              "sales_tax": {
+                "type": ["null", "number"],
+                "multipleOf": 1e-10
+              },
+              "created": {
+                "type": ["null", "string"],
+                "format": "date-time"
+              },
+              "created_by": {
+                "type": ["null", "integer"]
+              },
+              "created_by_name": {
+                "type": ["null", "string"]
+              },
+              "modified_by": {
+                "type": ["null", "integer"]
+              },
+              "modified_by_name": {
+                "type": ["null", "string"]
               }
             }
           }
