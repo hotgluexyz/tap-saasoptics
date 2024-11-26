@@ -7,7 +7,7 @@
       "format": "date-time"
     },
     "id": {
-      "type": ["null", "integer"]
+      "type": ["null", "integer", "string"]
     },
     "deleted_by": {
       "type": ["null", "string"]

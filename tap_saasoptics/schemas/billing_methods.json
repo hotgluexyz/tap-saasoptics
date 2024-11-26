@@ -3,7 +3,7 @@
   "additionalProperties": true,
   "properties": {
     "id": {
-      "type": ["null", "integer"]
+      "type": ["null", "integer", "string"]
     },
     "name": {
       "type": ["null", "string"]

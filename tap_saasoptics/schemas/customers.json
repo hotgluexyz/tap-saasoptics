@@ -44,19 +44,19 @@
           "type": ["null", "string"]
         },
         "currency": {
-          "type": ["null", "integer"]
+          "type": ["null", "integer", "string"]
         },
         "customer_type": {
-          "type": ["null", "integer"]
+          "type": ["null", "integer", "string"]
         },
         "default_class": {
-          "type": ["null", "integer"]
+          "type": ["null", "integer", "string"]
         },
         "default_credit_memo_template": {
-          "type": ["null", "integer"]
+          "type": ["null", "integer", "string"]
         },
         "default_invoice_template": {
-          "type": ["null", "integer"]
+          "type": ["null", "integer", "string"]
         },
         "edit_sequence": {
           "type": ["null", "string"]
@@ -65,7 +65,7 @@
           "type": ["null", "string"]
         },
         "entity_use_code": {
-          "type": ["null", "integer"]
+          "type": ["null", "integer", "string"]
         },
         "fax": {
           "type": ["null", "string"]
@@ -77,31 +77,31 @@
           "type": ["null", "string"]
         },
         "invoice_email_preference": {
-          "type": ["null", "boolean"]
+          "type": ["null", "boolean", "string"]
         },
         "invoice_print_preference": {
-          "type": ["null", "boolean"]
+          "type": ["null", "boolean", "string"]
         },
         "is_active": {
-          "type": ["null", "boolean"]
+          "type": ["null", "boolean", "string"]
         },
         "item_sales_tax": {
-          "type": ["null", "integer"]
+          "type": ["null", "integer", "string"]
         },
         "last_name": {
           "type": ["null", "string"]
         },
         "last_updated_by_qb": {
-          "type": ["null", "boolean"]
+          "type": ["null", "boolean", "string"]
         },
         "name": {
           "type": ["null", "string"]
         },
         "payment_method": {
-          "type": ["null", "integer"]
+          "type": ["null", "integer", "string"]
         },
         "payment_terms": {
-          "type": ["null", "integer"]
+          "type": ["null", "integer", "string"]
         },
         "phone": {
           "type": ["null", "string"]
@@ -110,13 +110,13 @@
           "type": ["null", "string"]
         },
         "sales_rep": {
-          "type": ["null", "integer"]
+          "type": ["null", "integer", "string"]
         },
         "sales_rep_fullname": {
           "type": ["null", "string"]
         },
         "sales_tax_code": {
-          "type": ["null", "integer"]
+          "type": ["null", "integer", "string"]
         },
         "salutation": {
           "type": ["null", "string"]
@@ -163,19 +163,19 @@
       "type": ["null", "string"]
     },
     "default_email_from_so": {
-      "type": ["null", "boolean"]
+      "type": ["null", "boolean", "string"]
     },
     "default_enable_ach_payment": {
-      "type": ["null", "boolean"]
+      "type": ["null", "boolean", "string"]
     },
     "default_enable_cc_payment": {
-      "type": ["null", "boolean"]
+      "type": ["null", "boolean", "string"]
     },
     "default_theme": {
-      "type": ["null", "integer"]
+      "type": ["null", "integer", "string"]
     },
     "do_not_sync": {
-      "type": ["null", "boolean"]
+      "type": ["null", "boolean", "string"]
     },
     "einvoicing_id": {
       "type": ["null", "string"]
@@ -184,19 +184,19 @@
       "type": ["null", "string"]
     },
     "enable_autopay": {
-      "type": ["null", "boolean"]
+      "type": ["null", "boolean", "string"]
     },
     "escalation_email": {
       "type": ["null", "string"]
     },
     "id": {
-      "type": ["null", "integer"]
+      "type": ["null", "integer", "string"]
     },
     "industry": {
       "type": ["null", "string"]
     },
     "is_active": {
-      "type": ["null", "boolean"]
+      "type": ["null", "boolean", "string"]
     },
     "market": {
       "type": ["null", "string"]
@@ -215,19 +215,16 @@
       "type": ["null", "string"]
     },
     "number_field1": {
-      "type": ["null", "number"],
-      "multipleOf": 1e-10
+      "type": ["null", "number", "string"]
     },
     "number_field2": {
-      "type": ["null", "number"],
-      "multipleOf": 1e-10
+      "type": ["null", "number", "string"]
     },
     "number_field3": {
-      "type": ["null", "number"],
-      "multipleOf": 1e-10
+      "type": ["null", "number", "string"]
     },
     "parent": {
-      "type": ["null", "integer"]
+      "type": ["null", "integer", "string"]
     },
     "qb_id": {
       "type": ["null", "string"]
@@ -239,10 +236,10 @@
       "type": ["null", "string"]
     },
     "sf_default_renewal_opportunity_rule": {
-      "type": ["null", "integer"]
+      "type": ["null", "integer", "string"]
     },
     "sf_id": {
-      "type": ["null", "string"]
+      "type": ["null", "string", "string"]
     },
     "sf_opportunity_price_book_id": {
       "type": ["null", "string"]
@@ -266,7 +263,7 @@
       "type": ["null", "string"]
     },
     "unbalanced_revenue_exception": {
-      "type": ["null", "boolean"]
+      "type": ["null", "boolean", "string"]
     }
   }
 }

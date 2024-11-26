@@ -6,7 +6,7 @@
       "type": ["null", "string"]
     },
     "id": {
-      "type": ["null", "integer"]
+      "type": ["null", "integer", "string"]
     },
     "intacct_id": {
       "type": ["null", "string"]
@@ -16,7 +16,7 @@
       "format": "date-time"
     },
     "intacct_recordno": {
-      "type": ["null", "integer"]
+      "type": ["null", "integer", "string"]
     },
     "name": {
       "type": ["null", "string"]

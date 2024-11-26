@@ -7,15 +7,13 @@
       "format": "date-time"
     },
     "home_amount": {
-      "type": ["null", "number"],
-      "multipleOf": 1e-10
+      "type": ["null", "number", "string"]
     },
     "id": {
-      "type": ["null", "integer"]
+      "type": ["null", "integer", "string"]
     },
     "local_amount": {
-      "type": ["null", "number"],
-      "multipleOf": 1e-10
+      "type": ["null", "number", "string"]
     },
     "modified": {
       "type": ["null", "string"],
@@ -26,7 +24,7 @@
       "format": "date-time"
     },
     "transaction": {
-      "type": ["null", "integer"]
+      "type": ["null", "integer", "string"]
     }
   }
 }
