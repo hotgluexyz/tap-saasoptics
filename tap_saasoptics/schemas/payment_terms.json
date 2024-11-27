@@ -3,7 +3,7 @@
   "additionalProperties": true,
   "properties": {
     "id": {
-      "type": ["null", "integer"]
+      "type": ["null", "integer", "string"]
     },
     "intacct_id": {
       "type": ["null", "string"]
@@ -13,10 +13,10 @@
       "format": "date-time"
     },
     "intacct_recordno": {
-      "type": ["null", "integer"]
+      "type": ["null", "integer", "string"]
     },
     "is_active": {
-      "type": ["null", "boolean"]
+      "type": ["null", "boolean", "string"]
     },
     "name": {
       "type": ["null", "string"]
@@ -25,8 +25,7 @@
       "type": ["null", "string"]
     },
     "num_days": {
-      "type": ["null", "number"],
-      "multipleOf": 1e-0
+      "type": ["null", "number", "string"]
     }
   }
 }

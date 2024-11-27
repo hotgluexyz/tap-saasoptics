@@ -3,22 +3,22 @@
   "additionalProperties": true,
   "properties": {
     "days": {
-      "type": ["null", "integer"]
+      "type": ["null", "integer", "string"]
     },
     "generate_revenue": {
-      "type": ["null", "boolean"]
+      "type": ["null", "boolean", "string"]
     },
     "id": {
-      "type": ["null", "integer"]
+      "type": ["null", "integer", "string"]
     },
     "months": {
-      "type": ["null", "integer"]
+      "type": ["null", "integer", "string"]
     },
     "name": {
       "type": ["null", "string"]
     },
     "recognize": {
-      "type": ["null", "boolean"]
+      "type": ["null", "boolean", "string"]
     }
   }
 }

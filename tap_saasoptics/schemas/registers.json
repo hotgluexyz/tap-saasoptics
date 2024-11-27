@@ -12,7 +12,7 @@
       "type": ["null", "string"]
     },
     "id": {
-      "type": ["null", "integer"]
+      "type": ["null", "integer", "string"]
     },
     "modified": {
       "type": ["null", "string"],

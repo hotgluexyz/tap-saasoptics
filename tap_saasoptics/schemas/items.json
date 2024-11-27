@@ -3,7 +3,7 @@
   "additionalProperties": true,
   "properties": {
     "asset_account": {
-      "type": ["null", "integer"]
+      "type": ["null", "integer", "string"]
     },
     "avatax_id": {
       "type": ["null", "string"]
@@ -15,13 +15,13 @@
       "type": ["null", "string"]
     },
     "billing_method": {
-      "type": ["null", "integer"]
+      "type": ["null", "integer", "string"]
     },
     "code": {
       "type": ["null", "string"]
     },
     "create_revenue": {
-      "type": ["null", "boolean"]
+      "type": ["null", "boolean", "string"]
     },
     "default_duration": {
       "type": ["null", "string"]
@@ -30,10 +30,10 @@
       "type": ["null", "string"]
     },
     "enable_create_transactions": {
-      "type": ["null", "boolean"]
+      "type": ["null", "boolean", "string"]
     },
     "enforce_start_date_after_end_date": {
-      "type": ["null", "boolean"]
+      "type": ["null", "boolean", "string"]
     },
     "gl_created": {
       "type": ["null", "string"],
@@ -43,7 +43,7 @@
       "type": ["null", "string"]
     },
     "gl_is_active": {
-      "type": ["null", "boolean"]
+      "type": ["null", "boolean", "string"]
     },
     "gl_modified": {
       "type": ["null", "string"],
@@ -53,10 +53,10 @@
       "type": ["null", "string"]
     },
     "id": {
-      "type": ["null", "integer"]
+      "type": ["null", "integer", "string"]
     },
     "income_account": {
-      "type": ["null", "integer"]
+      "type": ["null", "integer", "string"]
     },
     "intacct_id": {
       "type": ["null", "string"]
@@ -69,19 +69,19 @@
       "type": ["null", "string"]
     },
     "is_active": {
-      "type": ["null", "boolean"]
+      "type": ["null", "boolean", "string"]
     },
     "is_discount": {
-      "type": ["null", "boolean"]
+      "type": ["null", "boolean", "string"]
     },
     "is_sales_tax": {
-      "type": ["null", "boolean"]
+      "type": ["null", "boolean", "string"]
     },
     "is_taxable": {
-      "type": ["null", "boolean"]
+      "type": ["null", "boolean", "string"]
     },
     "liability_account": {
-      "type": ["null", "integer"]
+      "type": ["null", "integer", "string"]
     },
     "modified": {
       "type": ["null", "string"],
@@ -91,7 +91,7 @@
       "type": ["null", "string"]
     },
     "needs_so_profile": {
-      "type": ["null", "boolean"]
+      "type": ["null", "boolean", "string"]
     },
     "netsuite_id": {
       "type": ["null", "string"]
@@ -107,13 +107,13 @@
       "type": ["null", "string"]
     },
     "qb_account": {
-      "type": ["null", "integer"]
+      "type": ["null", "integer", "string"]
     },
     "qb_id": {
       "type": ["null", "string"]
     },
     "qb_only": {
-      "type": ["null", "boolean"]
+      "type": ["null", "boolean", "string"]
     },
     "qb_sales_tax_code": {
       "type": ["null", "string"]
@@ -122,19 +122,19 @@
       "type": ["null", "string"]
     },
     "recurring": {
-      "type": ["null", "boolean"]
+      "type": ["null", "boolean", "string"]
     },
     "renew_all_open_transactions": {
-      "type": ["null", "boolean"]
+      "type": ["null", "boolean", "string"]
     },
     "renew_using_same_item": {
-      "type": ["null", "boolean"]
+      "type": ["null", "boolean", "string"]
     },
     "revenue_recognition_method": {
-      "type": ["null", "integer"]
+      "type": ["null", "integer", "string"]
     },
     "sf_do_not_sync": {
-      "type": ["null", "boolean"]
+      "type": ["null", "boolean", "string"]
     },
     "source_system": {
       "type": ["null", "string"]
@@ -143,7 +143,7 @@
       "type": ["null", "string"]
     },
     "sync_invoices": {
-      "type": ["null", "boolean"]
+      "type": ["null", "boolean", "string"]
     },
     "transaction_end_date": {
       "type": ["null", "string"],
@@ -154,7 +154,7 @@
       "format": "date-time"
     },
     "wizard_enabled": {
-      "type": ["null", "boolean"]
+      "type": ["null", "boolean", "string"]
     }
   }
 }
