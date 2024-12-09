@@ -258,7 +258,7 @@
           "type": "array",
           "items": {
             "type": ["null", "object"],
-            "additionalProperties": false,
+            "additionalProperties": true,
             "properties": {
               "affected_transaction": {
                 "type": ["null", "string"]
